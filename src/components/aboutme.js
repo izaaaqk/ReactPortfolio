@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import { Avatar } from '@mui/material';
 import { MDBContainer, MDBRow, MDBCol } from 'mdbreact';
+import pic from '../pic.jpg';
+
 
 class AboutMe extends Component {
     render() {
@@ -12,7 +14,7 @@ class AboutMe extends Component {
                 <div style={{backgroundColor: "lightblue"}}>
                 <Avatar
                     alt="Remy Sharp"
-                    src="/static/images/avatar/1.jpg"
+                    src={pic}
                     sx={{ width: 200, height: 200 }}
                 />
                     <h1>Isaac Aguirre</h1>
