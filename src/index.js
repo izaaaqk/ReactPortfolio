@@ -10,7 +10,7 @@ import 'mdbreact/dist/css/mdb.css';
 
 
 ReactDOM.render(
-  <BrowserRouter>
+  <BrowserRouter basename="/ReactPortfolio" >
       <App />
   </BrowserRouter>,
 
