@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Avatar } from '@mui/material';
 import { MDBContainer, MDBRow, MDBIcon } from 'mdbreact';
-import pic from '../pic.jpg';
+import pic from './static/pic.jpg';
 
 
 

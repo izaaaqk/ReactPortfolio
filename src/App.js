@@ -27,7 +27,7 @@ class App extends Component {
                             <Nav.Link href="/home">Home</Nav.Link>
                             <Nav.Link href="/aboutme">About me</Nav.Link>
                             <Nav.Link href="/resume">Resume</Nav.Link>
-                            <Nav.Link href="/Contact me">Contact</Nav.Link>
+                            <Nav.Link href="/contactme">Contact</Nav.Link>
                             <NavDropdown title="Projects" id="basic-nav-dropdown">
                                 <NavDropdown.Item href="/projects">All Projects</NavDropdown.Item>
                                 <NavDropdown.Divider />
