@@ -12,17 +12,16 @@ export default function ActionAreaCard() {
                 <CardMedia
                     component="img"
                     height="140"
-                    image="/static/images/cards/contemplative-reptile.jpg"
-                    alt="green iguana"
+                    image="/static/weatherBeats.jpg"
+                    href="https://izaaaqk.github.io/WeatherBeatsProject1/"
+                    alt="WeatherBeatsProject1"
                 />
                 <CardContent>
                     <Typography gutterBottom variant="h5" component="div">
-                        Lizard
+                        WeatherBeats
                     </Typography>
                     <Typography variant="body2" color="text.secondary">
-                        Lizards are a widespread group of squamate reptiles, with over 6,000
-                        species, ranging across all continents except Antarctica
-                    </Typography>
+                        Weather Beats is a app that will wet you a playlist depending on the current weather.                    </Typography>
                 </CardContent>
             </CardActionArea>
         </Card>
