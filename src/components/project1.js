@@ -4,6 +4,7 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import { CardActionArea } from '@mui/material';
+import weatherBeats from './static/weatherBeats.jpg';
 
 export default function ActionAreaCard() {
     return (
@@ -12,8 +13,7 @@ export default function ActionAreaCard() {
                 <CardMedia
                     component="img"
                     height="140"
-                    image="/static/weatherBeats.jpg"
-                    href="https://izaaaqk.github.io/WeatherBeatsProject1/"
+                    image={weatherBeats}
                     alt="WeatherBeatsProject1"
                 />
                 <CardContent>
